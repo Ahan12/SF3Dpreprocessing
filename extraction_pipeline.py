@@ -3,7 +3,6 @@ import numpy as np
 from collections import Counter
 from projection_utils import parse_pincam, parse_traj, project_points
 
-# --- Configuration & Thresholds (Section 3.2) ---
 MIN_DEPTH      = 0.10
 THETA_DEPTH    = 0.05
 THETA_POINTS   = 0.30
